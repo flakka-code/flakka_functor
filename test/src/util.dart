@@ -20,3 +20,8 @@ ProviderContainer createContainer({
 
   return container;
 }
+
+extension type ProviderSystem(ProviderContainer system)
+    implements ProviderContainer {
+
+}
